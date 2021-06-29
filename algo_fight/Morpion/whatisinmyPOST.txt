@@ -1,0 +1,32 @@
+Array
+(
+    [j1] => CodeNoName1#30
+    [j2] => CodeNoName2#29
+    [fightIteration] => 5
+    [J1Win] => 3
+    [J2Win] => 2
+    [winner] => CodeNoName1#30
+    [loser] => CodeNoName2#29
+    [fairCount] => 0
+    [J1Fail] => non
+    [J2Fail] => non
+    [jeu] => morpion
+)
+
+(NULL, ?, 
+?, ?,
+ ?, 
+?, 
+?, 
+?, 
+?, 'morpion')
+
+(`id`, `
+1id_algo1`, 
+2`id_algo2`,
+3`isValid_algo1`, 
+4`isValid_algo2`, 
+5`iterations`, 
+6`victoryCountJ1`, 
+7`victoryCountJ2`, 
+8`fairCount`, `jeu`)

@@ -1,0 +1,9 @@
+Array
+(
+    [isJ1IA] => ok
+    [J1Code] => oaoadzoiazdiojzdajiozda
+    [J1CodeName] => Philippoooooti
+    [isJ2IA] => ok
+    [J2Code] => return "Random";
+    [J2CodeName] => Vincentkyyk
+)

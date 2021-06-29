@@ -1,0 +1,77 @@
+#J1scriptNotOk{
+  position: absolute;
+  top : 5px;
+  text-align: center;
+}
+#J2scriptNotOk{
+  position: absolute;
+  top : 25px;
+  text-align: center;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:black;
+    color:white;
+    box-sizing: border-box;
+}
+#winnerSpot{
+  position: absolute;
+  bottom: 20px;
+  right:150px;
+}
+.hidden{
+  display:none;
+}
+.notClickable{
+  pointer-events: none;
+}
+#restart{
+  position: absolute;
+  margin-left: 48.5vw;
+  bottom:20px;
+  z-index: 99;
+}
+#boardContainer{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:99vw;
+    height:80vh;
+}
+
+#board{
+    width:600px;
+    height:600px;
+    top:calc(52vh - 300px);
+    left:calc(50vh - 300px);
+
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.case{
+    color:whitesmoke;
+    width:194px;
+    height:194px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-size:3vh;
+    border:3px white solid;
+}
+.case:hover{
+    background-color:grey;
+}
+
+#countBoard{
+    display:flex;
+    padding : 20px;
+}
+.counter{
+    border:1px solid white;
+    width: 100px;
+}

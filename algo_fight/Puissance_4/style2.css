@@ -1,0 +1,53 @@
+.case{
+    width:64px;
+    height:64px;
+    border:solid 3px black;
+    background:black;
+}
+.space{
+    width:64px;
+    height:64px;
+    clip-path: circle();
+    background:white;
+    pointer-events: none;
+}
+#restart{
+    margin-left:47.5vw;
+}
+#gameBoard{
+    margin-top : 80px;
+    display:flex;
+    margin-left:calc(50vw - 280px)
+}
+h1{
+    text-align:center;
+    padding: 0 20px;
+}
+#results{
+    margin:30px auto;
+    display:flex;
+    border:2px solid black;
+    width : 550px;
+    height: 150px;
+}
+
+.colonne{
+    border:3px solid grey;
+}
+.colonne:hover{
+    border:solid 3px red;
+}
+
+.yellow{
+    background-color:rgb(226, 211, 0);
+}
+.red{
+    background-color: rgb(218, 1, 1);;
+}
+
+.hidden{
+    display:none;
+}
+.notClickable{
+    pointer-events : none;
+}
